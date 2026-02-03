@@ -16,6 +16,8 @@ il gioco finisce quando vengono scoperte tutte le tessere;
 a fine gioco il programma segnala il numero di tentativi effettuati dal giocatore;
 Effettuare almeno un commit  per ogni funzionalità elencata. */
 
-int main(int argc, char** argv) {
+int main() 
+{
 	return 0;
+
 }
