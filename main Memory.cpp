@@ -16,8 +16,58 @@ il gioco finisce quando vengono scoperte tutte le tessere;
 a fine gioco il programma segnala il numero di tentativi effettuati dal giocatore;
 Effettuare almeno un commit  per ogni funzionalità elencata. */
 
+void matrice()
+{
+	
+	 
+  for (int i = 1; i <= 90; i++) 
+	{                                  // ciclo per stampare tutti i numeri
+     
+
+
+		else 
+		{    if(i<10)
+		    cout << "|"<< i << " |";  //spazzio per i numeri quando sono inferiori a 10 quindi occupano 1 spazio in meno
+		    else
+            cout << "|"<< i << "|";   //spazzio per quando i numeri sono maggiori ed uguali a 10 quindi occupano 2 spazi(tuttto per mantenere la tabella allineata
+            
+        }
+	
+	}	    
+		
+
+
+/* per stampare carateri
+ #include <iostream>
+using namespace std;
+int main()
+{
+  char a = rand() % 26+65;
+  cout<<a;
+  
+  
+  
+
+    return 0;
+}
+*/
+
+
+
 int main() 
 {
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	return 0;
-
 }
