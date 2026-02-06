@@ -1,0 +1,80 @@
+#include <iostream>
+
+/*Realizzare il gioco del Memory con le seguenti funzionalità:
+
+
+Fase preparatoria
+
+il programma genera casualmente la dimensione della matrice quadrata scegliendo un numero tra 4 e 7;
+in caso di matrice con numero di elementi dispari inserire lo zero in una posizione casuale;
+il programma inserisce nella matrice le coppie di caratteri in modo casuale;
+il programma visualizza una matrice di asterischi (tessere coperte);
+Gioco
+l'utente inserisce le coordinate di due tessere;
+il programma scopre le due tessere,  se sono uguali le lascia scoperte, se sono diverse le ricopre dopo 2 secondi;
+il gioco finisce quando vengono scoperte tutte le tessere;
+a fine gioco il programma segnala il numero di tentativi effettuati dal giocatore;
+Effettuare almeno un commit  per ogni funzionalità elencata. */
+
+void matrice()
+{
+	
+	 
+  for (int i = 1; i <= 90; i++) 
+	{                                  // ciclo per stampare tutti i numeri
+     
+
+
+		else 
+		{    if(i<10)
+		    cout << "|"<< i << " |";  //spazzio per i numeri quando sono inferiori a 10 quindi occupano 1 spazio in meno
+		    else
+            cout << "|"<< i << "|";   //spazzio per quando i numeri sono maggiori ed uguali a 10 quindi occupano 2 spazi(tuttto per mantenere la tabella allineata
+            
+        }
+	
+	}	    
+		
+
+
+
+
+
+int main() 
+{
+	int main()
+{
+  char a; 
+  int  i=0; 
+    srand(time(NULL));
+    i=(rand()%4+4);
+    cout<<i<<endl;    //spazzi grandezza tabella
+    
+   for(int l=0;l<i;l++)
+     { cout<<endl;
+         for (int j=0; j < i; j++)    
+         {  
+             a=(rand()%26+65);
+             
+	         if(j%2!=0)  
+             cout << "" << a << "|";
+             else
+             cout << "|" << a << "";
+         }
+     }
+    return 0;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	return 0;
+}
